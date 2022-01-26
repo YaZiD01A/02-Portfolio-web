@@ -1,0 +1,10 @@
+.images {
+display: flex;
+flex-wrap: wrap;
+width: 50%;
+}
+
+.navigation {
+    display: inline;
+    justify-content: flex-end;
+}
