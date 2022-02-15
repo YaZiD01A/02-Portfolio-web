@@ -1,10 +1,10 @@
-.images {
-display: flex;
-flex-wrap: wrap;
-width: 50%;
-}
-
-.navigation {
-    display: inline;
-    justify-content: flex-end;
-}
+header {
+    position: fixed;
+    height: 75px;
+    z-index: 4;
+    background-color: rgba(132, 196, 255, 0.712);
+    width: calc(100% - 100px);
+    box-shadow: none;
+    flex-flow: row;
+    justify-content: space-evenly;
+  }
